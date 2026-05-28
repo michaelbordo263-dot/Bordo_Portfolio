@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Sticky navbar shadow
 const navbar = document.querySelector('.navbar'); // Updated to select by class
 window.addEventListener('scroll', () => {
@@ -49,7 +48,7 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 }, { threshold: 0.1 });
-=======
+
 // Sticky navbar shadow
 const navbar = document.querySelector('.navbar'); // Updated to select by class
 window.addEventListener('scroll', () => {
@@ -100,5 +99,4 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 }, { threshold: 0.1 });
->>>>>>> dbecacd7715cd72d60ad8b817d0cc9f3cf02d036
 reveals.forEach(el => observer.observe(el));
