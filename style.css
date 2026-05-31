@@ -318,8 +318,8 @@ section {
 }
 
 .btn-outline {
-  border: 2px solid var(--blue-dark);
-  color: var(--blue-dark);
+  border: 2px solid #1591DC;
+  color: #1591DC;
   padding: 10px 26px;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -328,7 +328,7 @@ section {
 }
 
 .btn-outline:hover {
-  background: var(--blue-dark);
+  background: #1591DC;
   color: var(--white);
   transform: translateY(-1px);
 }
